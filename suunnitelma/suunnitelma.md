@@ -6,7 +6,7 @@ Tekijä: Juho Sointula
 
 Työ git-varaston osoite: <https://github.com/hirottaja/ohj1ht.git>
 
-Pelin nimi: V
+Pelin nimi: Väistöliike
 
 Pelialusta: Windows
 
