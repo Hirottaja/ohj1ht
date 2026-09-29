@@ -28,6 +28,8 @@ Peli alkaa siitä, että pelaajahahmo asetetaan kentän alareunaan ja elämien m
 
 ![Esimerkkikuva](esimerkkikuva.png "Esimerkkikuva")
 
+(Esimerkkikuva luotu ChatGPT-tekoälyn avulla.)
+
 ## Toteutuksen suunnitelma
 
 Viikko 1
