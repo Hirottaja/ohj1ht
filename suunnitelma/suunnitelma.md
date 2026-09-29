@@ -1,51 +1,48 @@
 # Harjoitustyön suunnitelma
 
-(Täydennä oman pelisi tiedot tähän tiedostoon muokkaamalla 
-tiedostoa tekstieditorissa. Käytä [Markdown-syntaksia](https://about.gitlab.com/handbook/markdown-guide/).
-Poista sitten *kaikki* suluilla merkityt kohdat.)
-
 ## Tietoja 
 
-Tekijä: (Etunimi Sukunimi)
+Tekijä: Juho Sointula
 
-Työ git-varaston osoite: <https://gitlab.jyu.fi/anlakane/ohj1ht> (*Korvaa* tämä osoite oman git-varastosi osoitteella)
+Työ git-varaston osoite: <https://github.com/hirottaja/ohj1ht.git>
 
-Pelin nimi: (Nimi)
+Pelin nimi: Väistöliike
 
-Pelialusta: Windows/macOS/Linux (Valitse alusta)
+Pelialusta: Windows
 
-Pelaajien lukumäärä: 1/2/3/4 (Valitse pelaajien lukumäärä)
+Pelaajien lukumäärä: 1
 
 ## Pelin tarina
 
-(Pelin tarina.)
+Pelaaja on jäänyt yksin sortuvaan louhokseen. Kalliosta irtoaa jatkuvasti kiviä, jotka putoavat kohti pelaajaa. Ainoa keino selvitä on liikkua sivuttain ja väistää putoavat kivet niin kauan kuin mahdollista.
 
 ## Pelin idea ja tavoitteet
 
-(Pelin idea ja tavoitteet.)
+Peli on selviytymispeli, jossa pelaaja ohjaa hahmoa vaaka-akselilla kentän alareunassa nuolinäppäimillä. Yläreunasta putoaa satunnaisin väliajoin ja satunnaisiin kohtiin kiviä, jotka liikkuvat tasaisella nopeudella alaspäin. Kivet ovat fysiikkaolioita, joita säilytetään listassa. Listan avulla seurataan kaikkien ruudulla olevien kivien törmäyksiä pelaajaan ja poistetaan ruudun alareunan ohi pudonneet kivet.
+
+Jos kivi osuu pelaajaan, pelaaja menettää yhden elämän. Pelaajalla on kolme elämää. Kun elämät loppuvat, peli päättyy ja ruudulle tulostuu lopullinen pistemäärä. Pisteitä kertyy sitä enemmän, mitä kauemmin pelaaja pysyy hengissä. Tavoitteena on kerätä mahdollisimman suuri pistemäärä ennen kuin elämät loppuvat. Peli tarjoaa jatkuvasti kasvavaa haastetta, koska kivien putoamistahti ja määrä ruudulla lisääntyvät ajan kuluessa.
+
+Peli alkaa siitä, että pelaajahahmo asetetaan kentän alareunaan ja elämien määräksi asetetaan kolme. Ajastin luo tasaisin väliajoin uuden kiven satunnaiseen kohtaan kentän yläreunaa, ja pelaaja väistää kiviä liikkumalla sivuttain. Kun elämät loppuvat, peli pysähtyy ja lopullinen pistemäärä näytetään ruudulla.
 
 ## Hahmotelma pelistä
-
-(Kun olet lisännyt suunnitelmakuvan tähän hakemistoon, linkitä se tähän alle. Alla on esimerkkikuvan linkitys.)
 
 ![Esimerkkikuva](esimerkkikuva.png "Esimerkkikuva")
 
 ## Toteutuksen suunnitelma
 
-Helmikuu
+Viikko 1
 
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
+- Pelaajahahmon luonti ja liikkuminen näppäimistöllä
+- Yhden kiven luonti ja putoaminen kentällä
 
-Maaliskuu
+Viikko 2
 
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
+- Kivien satunnainen ja jatkuva syntyminen ajastimen avulla, kivet listaan
+- Kivilistan käsittely: pudonneiden kivien poisto ja törmäyksen tunnistus
+- Elämien ja pisteiden laskenta, pelin päättyminen
 
 Jos aikaa jää
 
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
+- Vaikeustason kasvu ajan myötä (kivien putoamisnopeus ja tiheys kasvavat)
+- Grafiikan ja äänien viimeistely
+- Parhaan tuloksen (highscore) tallennus
