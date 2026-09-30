@@ -30,12 +30,12 @@ Jos kivi osuu pelaajaan, pelaaja menettää yhden elämän. Pelaajalla on kolme 
 
 ## Toteutuksen suunnitelma
 
-Viikko 1
+Lokakuu
 
 - Pelaajahahmon luonti ja liikkuminen näppäimistöllä
 - Yhden kiven luonti ja putoaminen kentällä
 
-Viikko 2
+Marraskuu
 
 - Kivien satunnainen ja jatkuva syntyminen ajastimen avulla ja kivet laitetaan listaan
 - Kivilistan käsittely. Pudonneiden kivien poisto ja törmäyksen tunnistus
