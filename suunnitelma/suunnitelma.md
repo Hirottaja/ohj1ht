@@ -40,6 +40,7 @@ Viikko 2
 - Kivien satunnainen ja jatkuva syntyminen ajastimen avulla ja kivet laitetaan listaan
 - Kivilistan käsittely. Pudonneiden kivien poisto ja törmäyksen tunnistus
 - Elämien ja pisteiden laskenta, pelin päättyminen
+Powerupit (Lisäelämä, kilpi, putoamisnopeuden hidastus jne..)
 
 Jos aikaa jää
 
@@ -47,4 +48,3 @@ Jos aikaa jää
 - Vaikeustason kasvaessa myös pisteiden kertyminen kasvaa
 - Grafiikan ja äänien viimeistely
 - Parhaan tuloksen (highscore) tallennus
-- Powerupit (Lisäelämä, kilpi, putamisnopeuden hidastus)
